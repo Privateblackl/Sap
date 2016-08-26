@@ -232,32 +232,32 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {255317894},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [[MeGa Sphero Api
+An advanced administration bot based on TeleSeed written in Lua
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/3pehrdev/Sphero (Normal Group)
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+@Yagop [Shop-Admin]
+@MrBlackLife [Developer-Founder]
+@Cc_dd_bbo_t [Support]
+@Atieh_gogolll [Eshghe Sudo (Mr..)]
+-----------------------------------
 
 Special thanks to
-awkward_potato
+ImanDaneshi
 Siyanew
-topkecleon
-Vamptacus
-
+Seyedan
+And Seed Team...
+-----------------------------------
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@SpheroCh [English]
+@SpheroCh [persian]
 
-Our website 
-http://teleseed.seedteam.org/
+Our instaGram 
+http://instagram.com/_u/mrblacklife
 ]],
     help_text_realm = [[
 Realm Commands:
