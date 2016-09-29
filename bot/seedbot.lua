@@ -208,7 +208,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
+    "supergroup",
     "inrealm",
     "ingroup",
     "inpm",
@@ -221,35 +221,35 @@ function create_config( )
     "get",
     "broadcast",
     "download_media",
-    "invite",
+    "plugins",
     "all",
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {255317894},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[MeGa Sphero[api] v1 - close Source
+An advance Administration bot based on TeleSeed and Group butler 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/3pehrdev - open projects 
 
 Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
-
+Founder (@MrBlackLife)
+Manager (@MrBlackLife)
+Developer (@MrBlackLife)
+Sudo (@MrBlackLife)
+[alone for ever ;)]
+---------------------------
 Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
+imanda
+alphonse
+seyedan
 Vamptacus
 
 Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+English: @Sphero_Ch
+Persian: @Sphero_Ch
 ]],
     help_text_realm = [[
 Realm Commands:
